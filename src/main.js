@@ -6,8 +6,9 @@ console.log('Valor inicial del contador: ', count);
 
 //Declaración constantes
 const counter = document.querySelector('#counter');
-const buttons = document.querySelectorAll('.buttons button');
+const buttons = document.querySelectorAll('button');
 
+//Función mediante un EventListener
 buttons.forEach(button => {
     button.addEventListener('click', (event) => {
         debugger;
@@ -20,10 +21,10 @@ buttons.forEach(button => {
         } else {
             count = 0;
         }
-        counter.textContent = count;
+        counter.textContent = count;//Cambia el valor en el counter para que se vea en pantalla.
         console.log('Nuevo valor de count: ', count);
 
-        if(count > 0) {
+        if(count > 0) { //Nuevo flujo de control para cambiar el color del counter. 
             counter.style.color = 'green'
         } else if (count < 0) {
             counter.style.color = 'red'
