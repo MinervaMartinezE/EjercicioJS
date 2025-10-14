@@ -7,10 +7,11 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "deploy" : "gh-pages -d dist"
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
+    "gh-pages": "^6.3.0",
     "vite": "^7.1.7"
   },
-  "homepage": "https://minervamartinez.github.io/EjerciciosJS"
+  "homepage": "https://minervamartinezE.github.io/EjerciciosJS"
 }
