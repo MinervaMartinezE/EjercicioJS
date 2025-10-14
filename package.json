@@ -1,5 +1,5 @@
 {
-  "name": "ejerciciosjs",
+  "name": "ejerciciojs",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,11 +7,12 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist -r https://github.com/MinervaMartinezE/EjercicioJS.git"
+
   },
   "devDependencies": {
     "gh-pages": "^6.3.0",
     "vite": "^7.1.7"
   },
-  "homepage": "https://minervamartinezE.github.io/EjerciciosJS"
+  "homepage": "https://MinervaMartinezE.github.io/EjercicioJS"
 }
